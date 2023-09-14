@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>linkdein website design</title>
+    <link rel="stylesheet" href="linstyle.css">
+
+</head>
+<body>
+    <!-----------------------navbar--------------------------->
+    <nav class="navbar">
+        <div class="navbar-left">
+            <a href="index.html" class="logo"><img src="logo.png"></a>
+
+            <div class="search-box">
+                <img src="search.png">
+                <input type="text" placeholder="search">
+            </div>
+    </div>
+        <div class="navbar-center">
+        <ul>
+            <li><a href="#" class="active-link"><img src="home.png"> <span>Home</span></a></li>
+            <li><a href="#"><img src="network.png"> <span>My Network</span></a></li>
+            <li><a href="#"><img src="jobs.png"> <span>Jobs</span></a></li>
+            <li><a href="#"><img src="message.png"> <span>Messaging</span></a></li>
+            <li><a href="#"><img src="notification.png"> <span>Notification</span></a></li>
+        </ul>
+    </div>
+        <div class="navbar-right">
+            <div class="status"> <img src="pro.png" class="nav-profile-img" onclick="toggleMenu()">
+            </div>
+        </div>
+        <!-----------------------profile menu------------------->
+
+<div class="profile-menu-wrap" id="profileMenu">
+    <div class="profile-menu">
+        <div class="user-info">
+            <img src="pro.png" >
+            <div>
+                <h3>Irin Joseph</h3>
+                <a href="#">See your profile</a>
+            </div>
+        </div>
+        <hr>
+        <a href="#" class="profile-menu-link">
+            <img src="feedback.png">
+            <p>Give Feedback</p>
+            <span>></span>
+        </a>
+        <a href="#" class="profile-menu-link">
+            <img src="setting.png">
+            <p>Settings & Privacy</p>
+            <span>></span>
+        </a>
+        <a href="#" class="profile-menu-link">
+            <img src="help.png">
+            <p>Help & Support</p>
+            <span>></span>
+        </a>
+        <a href="#" class="profile-menu-link">
+            <img src="display.png">
+            <p>Display & Accessibility</p>
+            <span>></span>
+        </a>
+        <a href="#" class="profile-menu-link">
+            <img src="logout.png">
+            <p>Logout</p>
+            <span>></span>
+        </a>
+    </div>
+</div>
+
+
+
+
+    </nav>
+    <!------------------------------------------------------->
+<div class="container">
+    <!------------left sidebar--------------------->
+    <div class="left-sidebar">
+        <div class="sidebar-profile-box">
+            <img src="piccover.png" width="100%">
+<div class="sidebar-profile-info">
+    <img src="pro.png">
+     <h1>Irin Joseph</h1>
+    <h3>Web Developer at Microsoft</h3>
+    <ul>
+        <li>Your profile views <span>63</span></li>
+        <li>Your Post views <span>79</span></li>
+        <li>Your connections <span>210</span></li>
+    </ul>
+          </div> 
+          <div class="sidebar-profile-link">
+            <a href="#"><img src="items.png"> My items</a>
+            <a href="#"><img src="premium.png">Try premium</a>
+          </div> 
+        </div>
+        <div class="sidebar-activity">
+            <h3>RECENT</h3>
+            <a href="#"><img src="recent.png">Web Development</a>
+            <a href="#"><img src="recent.png">Use Interface</a>
+            <a href="#"><img src="recent.png">Online Learning</a>
+            <a href="#"><img src="recent.png">Learn online</a>
+            <a href="#"><img src="recent.png">Code Better</a>
+            <a href="#"><img src="recent.png">Group Learning</a>
+            <h3>Groups</h3>
+            <a href="#"><img src="group.png">Web Design Group</a>
+            <a href="#"><img src="group.png">HTML&CSS Learners</a>
+            <a href="#"><img src="group.png">Javascript & Python</a>
+            <a href="#"><img src="group.png">Learn coding online</a>
+            <h3>HASTAG</h3>
+            <a href="#"><img src="hashtag.png">webdevelopment</a>
+            <a href="#"><img src="hashtag.png">userinterface</a>
+            <a href="#"><img src="hashtag.png">onlinelearning</a>
+            <div class="discover-more-links">
+                <a href="#">Discover more</a>
+            </div>
+        </div>
+    </div>
+
+   
+    <!-------------main-------------------->
+    <div class="main-content">
+<div class="create-post">
+    <div class="create-post-input">
+        <img src="pro.png">
+        <textarea rows="2" placeholder="Write a post"></textarea>
+    </div>
+    <div class="create-post-links">
+        <li><img src="photo.png">Photo</li>
+        <li><img src="video.png">Video</li>
+        <li><img src="event.png">Event</li>
+        <li>Post</li>
+
+    </div>
+</div>
+<div class="sort-by">
+    <hr>
+    <p>Sort by: <span> top <img src="down-arrow.png"></span></p>
+</div>
+
+
+<div class="post">
+    <div class="post-author">
+        <img src="download.jpg">
+        <div>
+            <h1>Teresa Benjamin</h1>
+            <small>Founder and CEO at Gallelio Group | Angel Investors</small>
+            <small>2 hours ago</small>
+        </div>
+    </div>
+    <p>Technology is the study of scientific knowledge in order to create tools and processes that may be used to change the world by increasing efficiency in nearly every aspect of our lives.
+         Technology has made our lives easier, and all human beings have become entirely dependent on technology.</p>
+         <img src="download (1).jpg" width=100%">
+         <div class="post-stats">
+            <div>
+                <img src="thumbsup.png">
+                <img src="love.png">
+                <img src="clap.png">
+                <span class="liked-users">Afsal Albusthan and 76 others</span>
+            </div>
+            <div>
+                <span>22 comments &middot; 40 shares</span>
+            </div>
+         </div>
+         <div class="post-activity">
+            <div>
+                <img src="pro.png" class="post-activity-user-icon">
+            <img src="down-arrow.png" class="post-activity-arrow-icon">
+         </div>
+         <div class="post-activity-link">
+            <img src="like.png">
+            <span>Like</span>
+            </div>
+            <div class="post-activity-link">
+                <img src="comment.png">
+                <span>Comment</span>
+                </div>
+                <div class="post-activity-link">
+                    <img src="share.png">
+                    <span>Share</span>
+                    </div>
+                    <div class="post-activity-link">
+                        <img src="send.png">
+                        <span>Send</span>
+                        </div>
+         
+</div>
+</div>
+
+<div class="post">
+    <div class="post-author">
+        <img src="user-5.png">
+        <div>
+            <h1>Peter Leo</h1>
+            <small>Founder and CEO at Gallelio Group | Angel Investors</small>
+            <small>2 hours ago</small>
+        </div>
+    </div>
+    <p>
+        Technology uses many different ideas like this one, to make our lives very easy and problem-free. 
+        It helps us by making our work less because technology does a lot of our work for us.
+        </p>
+         <img src="post-image-2.png" width="100%">
+         <div class="post-stats">
+            <div>
+                <img src="thumbsup.png">
+                <img src="love.png">
+                <img src="clap.png">
+                <span class="liked-users">Reem Ali and 80 others</span>
+            </div>
+            <div>
+                <span>34 comments &middot; 60 shares</span>
+            </div>
+         </div>
+         <div class="post-activity">
+            <div>
+                <img src="pro.png" class="post-activity-user-icon">
+            <img src="down-arrow.png" class="post-activity-arrow-icon">
+         </div>
+         <div class="post-activity-link">
+            <img src="like.png">
+            <span>Like</span>
+            </div>
+            <div class="post-activity-link">
+                <img src="comment.png">
+                <span>Comment</span>
+                </div>
+                <div class="post-activity-link">
+                    <img src="share.png">
+                    <span>Share</span>
+                    </div>
+                    <div class="post-activity-link">
+                        <img src="send.png">
+                        <span>Send</span>
+                        </div>
+         
+</div>
+</div>
+<div class="post">
+    <div class="post-author">
+        <img src="user-4.png">
+        <div>
+            <h1>Peter Leo</h1>
+            <small>Founder and CEO at ABC Group | Angel Investors</small>
+            <small>2 hours ago</small>
+        </div>
+    </div>
+    <p>
+        Technology is the most useful form of science for the general population. In simple words, technology is when we take the concepts of science and transform them into gadgets and devices that are useful to us as human beings. 
+        When we look around us, almost everything is a result of or a form of technology.
+        </p>
+         <img src="post-image-3.png" width="100%">
+         <div class="post-stats">
+            <div>
+                <img src="thumbsup.png">
+                <img src="love.png">
+                <img src="clap.png">
+                <span class="liked-users">Sundhus and 30 others</span>
+            </div>
+            <div>
+                <span>12 comments &middot; 24 shares</span>
+            </div>
+         </div>
+         <div class="post-activity">
+            <div>
+                <img src="pic.png" class="post-activity-user-icon">
+            <img src="down-arrow.png" class="post-activity-arrow-icon">
+         </div>
+         <div class="post-activity-link">
+            <img src="like.png">
+            <span>Like</span>
+            </div>
+            <div class="post-activity-link">
+                <img src="comment.png">
+                <span>Comment</span>
+                </div>
+                <div class="post-activity-link">
+                    <img src="share.png">
+                    <span>Share</span>
+                    </div>
+                    <div class="post-activity-link">
+                        <img src="send.png">
+                        <span>Send</span>
+                        </div>
+         
+</div>
+</div>
+
+
+
+
+    </div>
+
+<!-----------------right sidebar---------------->
+    <div class="right-sidebar">
+        <div class="sidebar-news">
+            <img src="more.png" class="info-icon">
+            <h3>Trending News</h3>
+            <a hre="#">High demand for skilled manpower</a>
+            <span>1d ago &middot; 10,394 readers</span>
+
+            <a hre="#">Careers growing horizontally too</a>
+            <span>18hr ago &middot; 14,904 readers</span>
+
+            <a hre="#">Less work for US,more for UK</a>
+            <span>14hr ago &middot; 904 readers</span>
+
+            <a hre="#">More hiring-higher confidence</a>
+            <span>3d ago &middot; 16,767 readers</span>
+
+            <a hre="#">Gautam Adani is the world's third richest</a>
+            <span>5hr ago &middot; 23,00readers</span>
+
+            <a href="#" class="read-more-link">Read more</a>
+        </div>
+        <div class="sidebar-ad">
+            <small>Ad &middot;&middot;&middot;</small>
+            <p>Master the 5 principle of web design</p>
+            <div>
+                <img src="pro.png">
+                <img src="mi-logo.png">
+            </div>
+            <b>Brand and Demand in Xiaomi</b>
+            <a href="#" class="ad-link">Learn More</a>
+      
+        </div>
+        <div class="sidebar-useful-links">
+            <a href="#">About</a>
+            <a href="#">Accessibilty</a>
+            <a href="#">Help Center</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Advertising</a>
+            <a href="#">Get the App</a>
+            <a href="#">More</a>
+          
+            <div class="copyright-msg">
+                <img src="logo.png">
+                <p>Linkedup &copy; 2022. All right reserved</p>
+            </div>
+
+        </div>
+    </div>
+</div>
+<script>
+    let profileMenu = document.getElementById("profileMenu");
+    function toggleMenu(){
+        profileMenu.classList.toggle("open-menu")
+    }
+</script>
+</body>
+</html>
